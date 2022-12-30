@@ -1,0 +1,1 @@
+export default ({caption = "Shared Btn"}) => <button className='shared-btn'>{caption}</button>;

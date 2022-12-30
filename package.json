@@ -10,6 +10,7 @@
     "packages/*"
   ],
   "scripts": {
+    "dev": "pnpm  --parallel --filter \"./**\" dev",
     "build": "pnpm  --parallel --filter \"./**\" build",
     "preview": "pnpm  --parallel --filter \"./**\" preview",
     "stop": "kill-port --port 5000,5001"
